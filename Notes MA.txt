@@ -1,0 +1,7 @@
+les top5 maladies:
+Infiltration:Tuberculose pulmonaire.
+Pneumonia:Les pneumopathies aiguës communautaires (PAC) et les infections respiratoires basses.
+Emphysema:a Bronchopneumopathie Chronique Obstructive (BPCO)
+Effusion:La pleurésie (majoritairement d'origine tuberculeuse) et les complications infectieuses.
+Mass&Nodule:Le cancer bronchopulmonaire (cancer du poumon)
+cela se sont des signe chaque signe a une maladies specifique
