@@ -1,0 +1,43 @@
+. Pour justifier l'état de l'art (L'évolution Trad -> ML -> DL)
+Voici d'excellents articles de revue (Survey papers) qui expliquent exactement l'évolution entre les méthodes traditionnelles d'extraction de caractéristiques et le Deep Learning en imagerie médicale.
+
+Référence majeure sur le Deep Learning médical :
+
+Litjens, G., Kooi, T., Bejnordi, B. E., Setio, A. A. A., Ciompi, F., Ghafoorian, M., ... & Sánchez, C. I. (2017). A survey on deep learning in medical image analysis. Medical Image Analysis, 42, 60-88.
+
+Pour justifier le Transfer Learning (ResNet, VGG) :
+
+Rajpurkar, P., Irvin, J., Zhu, K., Yang, B., Mehta, H., Duan, T., ... & Ng, A. Y. (2017). CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning. arXiv preprint arXiv:1711.05225.
+
+3. Pour la partie "Machine Learning & Approches traditionnelles"
+Pour justifier l'utilisation des GLCM, SVM, et des méthodes manuelles avant le Deep Learning :
+
+Article classique sur le Machine Learning en classification de rayons X :
+
+Candemir, S., & Antani, S. (2019). A review on lung boundary detection in chest X-rays. International Journal of Computer Assisted Radiology and Surgery, 14(4), 563-576.
+
+
+les sources des etudes comparative 1. Étude de Wang et al. (2017) - Création de ChestX-ray14
+C'est le document officiel publié par les chercheurs qui ont créé le dataset NIH ChestX-ray14.
+
+Wang, X., Peng, Y., Lu, L., Lu, Z., Bagheri, M., & Summers, R. M. (2017). ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2097-2106.
+
+2. Étude de Rajpurkar et al. (2017) - CheXNet (Université de Stanford)
+L'article révolutionnaire qui a prouvé que l'IA pouvait dépasser les radiologues humains pour détecter la pneumonie.
+
+Rajpurkar, P., Irvin, J., Zhu, K., Yang, B., Mehta, H., Duan, T., ... & Ng, A. Y. (2017). CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning. arXiv preprint arXiv:1711.05225.
+
+3. Étude d'Irvin et al. (2019) - Création de CheXpert
+L'article officiel de l'Université de Stanford présentant le dataset CheXpert et l'approche pour gérer l'incertitude des labels médicaux.
+
+Irvin, J., Rajpurkar, P., Ko, M., Yu, Y., Ciurea-Ilcus, S., Chute, C., ... & Ng, A. Y. (2019). CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison. Proceedings of the AAAI Conference on Artificial Intelligence, 33(01), 590-597.
+
+4. Étude de Pham et al. (2021) - Modèles d'Ensemble
+Une excellente étude qui montre comment la combinaison de plusieurs réseaux de neurones (Ensemble Learning) améliore les résultats sur CheXpert.
+
+Pham, H. H., Le, T. T., Tran, D. Q., Ngo, D. T., & Nguyen, H. Q. (2021). Interpreting chest X-rays via CNNs that exploit hierarchical disease dependencies and uncertainty labels. Neurocomputing, 437, 186-194.
+
+5. L'évolution vers les Vision Transformers (ViT)
+L'étude mentionnée représente la vague récente (2022-2023) d'utilisation des Vision Transformers pour remplacer les CNN classiques. Voici l'une des publications de référence sur ce sujet en imagerie médicale :
+
+Matsoukas, C., Haslum, J. F., Smedby, Ö., & Smith, K. P. (2021). Is it time to replace CNNs with Transformers for medical images? In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops, 3288-3298.
